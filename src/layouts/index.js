@@ -5,7 +5,6 @@ import Helmet from 'react-helmet'
 import Media from 'react-media'
 
 import './index.css'
-import "../styles/layout-override.css";
 
 const Header = () => (
   <div
