@@ -1,8 +1,6 @@
-# Gatsby blog
+# Gatsby blog 🚀 [Demo](https://gatsby-blog-demo.netlify.com/)
 
 Super quick simple [Gatsby](https://www.gatsbyjs.org/) powered blog
-
-## 🚀 [Demo](https://gatsby-blog-demo.netlify.com/)
 
 Hosted on [Netlify](https://netlify.com)
 
