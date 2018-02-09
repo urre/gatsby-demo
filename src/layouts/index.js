@@ -5,6 +5,8 @@ import Helmet from 'react-helmet'
 import Media from 'react-media'
 
 import './index.css'
+import './prism-gh.css'
+
 
 const Header = () => (
   <div

@@ -5,6 +5,28 @@ title: "My First Gatsby Post"
 ---
 Oooooh-weeee, my first blog post!
 
+
+```javascript
+query Hero($episode: Episode, $withFriends: Boolean!) {
+  hero(episode: $episode) {
+    name
+    friends @include(if: $withFriends) {
+      name
+    }
+  }
+}
+```
+
+```javascript
+{
+  "data": {
+    "hero": {
+      "name": "R2-D2"
+    }
+  }
+}
+```
+
 ![](https://source.unsplash.com/hZDLpVTGpaE/1600x900)
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus quis eros elit. Suspendisse tristique ut massa ac consectetur. In ac consequat nunc, non molestie lacus.
